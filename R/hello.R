@@ -249,5 +249,5 @@ hello <- function() {
 #                    km3$betweenss/km3$totss, km4$betweenss/km4$totss,
 #                    km5$betweenss/km5$totss, km6$betweenss/km6$totss)
 # plot(c(1:6), explained.var, xlab=“N. clusters”,
-#      ylab=“% varianza spiegata”, type=“l”)")
+#      ylab=“% varianza spiegata”, type=“l”)"
 }
