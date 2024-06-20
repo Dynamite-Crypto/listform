@@ -1,3 +1,5 @@
+
+hello <- function() {
 formule <- "# Vettore medie: colMeans(dati)
 # n=nrow(dati)
 # medie=t(dati)%*% rep(1,n)/n
@@ -247,6 +249,5 @@ formule <- "# Vettore medie: colMeans(dati)
 #                    km5$betweenss/km5$totss, km6$betweenss/km6$totss)
 # plot(c(1:6), explained.var, xlab=“N. clusters”,
 #      ylab=“% varianza spiegata”, type=“l”)"
-hello <- function() {
   cat(formule,"\n")
 }
