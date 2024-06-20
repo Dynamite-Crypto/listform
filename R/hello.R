@@ -1,4 +1,6 @@
-# Vettore medie: colMeans(dati)
+
+hello <- function() {
+  print("# Vettore medie: colMeans(dati)
 # n=nrow(dati)
 # medie=t(dati)%*% rep(1,n)/n
 # matrice di correlazione: → cor(dati)
@@ -246,7 +248,5 @@
 #                    km3$betweenss/km3$totss, km4$betweenss/km4$totss,
 #                    km5$betweenss/km5$totss, km6$betweenss/km6$totss)
 # plot(c(1:6), explained.var, xlab=“N. clusters”,
-#      ylab=“% varianza spiegata”, type=“l”)
-hello <- function() {
-  print("Hello, world!")
+#      ylab=“% varianza spiegata”, type=“l”)")
 }
